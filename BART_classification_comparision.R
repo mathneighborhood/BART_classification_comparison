@@ -16,7 +16,7 @@ library(dplyr)
 library(ggpubr)
 theme_set(theme_pubr())
 
-heart <- read.csv("/Users/jon_southam/Downloads/heart.csv")
+heart <- read.csv("/Users/insertusername/Downloads/heart.csv")
 
 
 heart[, 'target'] <- as.factor(heart[, 'target'])
